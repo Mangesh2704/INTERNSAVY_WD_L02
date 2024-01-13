@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #F5F5F5;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 400px;
+}
+
+th {
+    color: #FFFFFF;
+}
+
+input {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button {
+    min-width: 120px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+button#calculate {
+    background-color: #4CAF50; 
+    color: #fff;
+}
+
+button#stop {
+    background-color: #FF0000; 
+    color: #fff;
+}
+
+button#reset {
+    background-color: #007BFF; 
+    color: #fff;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.countdown > div {
+    margin: 10px;
+}
+
+.heading {
+    color: #F5F5F5;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.time {
+    background-color: #090909;
+    color: #FFFFFF;
+    font-size: 80px;
+    width: 120px;
+    margin: 0 10px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+}
